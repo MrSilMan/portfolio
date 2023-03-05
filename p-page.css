@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+
+:root{
+    --color: #d89584;
+    --color1: #f4f4f4;
+}
+
+div.portfolio-h{
+    height: 90px;
+    background: url("img/header.jpg") no-repeat center/cover;
+    position: relative;
+}
+
+.portfolio-h-title{
+    color: #f4f4f4;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 6px;
+    padding-left: 8px;
+}
+
+h1.p-s1-g-h1{
+    color: black;
+    font-size: 46px;
+    margin-top: 16px;
+}
+
+h2.p-s1-g-h2{
+    font-size: 26px;
+    font-weight: normal;
+}
+
+a.p-s1-g-back{
+    color: var(--color);
+    margin-left: -10px;
+}
+
+
+img.p-s-img{
+    width: 70%;
+    max-width: 550px;
+}
